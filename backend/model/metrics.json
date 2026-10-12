@@ -1,0 +1,88 @@
+{
+  "best_model": "LogisticRegression",
+  "metrics": {
+    "accuracy": 0.6088825214899714,
+    "precision": 0.29961089494163423,
+    "recall": 0.45294117647058824,
+    "f1": 0.36065573770491804,
+    "roc_auc": 0.5903799019607844,
+    "confusion_matrix": [
+      [
+        348,
+        180
+      ],
+      [
+        93,
+        77
+      ]
+    ]
+  },
+  "all_models": {
+    "LogisticRegression": {
+      "accuracy": 0.6088825214899714,
+      "precision": 0.29961089494163423,
+      "recall": 0.45294117647058824,
+      "f1": 0.36065573770491804,
+      "roc_auc": 0.5903799019607844,
+      "confusion_matrix": [
+        [
+          348,
+          180
+        ],
+        [
+          93,
+          77
+        ]
+      ]
+    },
+    "RandomForest": {
+      "accuracy": 0.669054441260745,
+      "precision": 0.33513513513513515,
+      "recall": 0.36470588235294116,
+      "f1": 0.3492957746478873,
+      "roc_auc": 0.5634525401069519,
+      "confusion_matrix": [
+        [
+          405,
+          123
+        ],
+        [
+          108,
+          62
+        ]
+      ]
+    },
+    "XGBoost": {
+      "accuracy": 0.6303724928366762,
+      "precision": 0.2777777777777778,
+      "recall": 0.3235294117647059,
+      "f1": 0.29891304347826086,
+      "roc_auc": 0.519513146167558,
+      "confusion_matrix": [
+        [
+          385,
+          143
+        ],
+        [
+          115,
+          55
+        ]
+      ]
+    }
+  },
+  "feature_importance": {},
+  "features": {
+    "categorical": [
+      "Education",
+      "City",
+      "Gender",
+      "EverBenched"
+    ],
+    "numerical": [
+      "JoiningYear",
+      "PaymentTier",
+      "Age",
+      "ExperienceInCurrentDomain"
+    ]
+  }
+}
